@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+</head>
+
+<body>
+
+
+
+
+    <header style="background-color: #3b5d50; height: 80vh;">
+
+        <nav class="navbar navbar-expand-lg navbar-light  px-5">
+            <div class="container-fluid">
+                <a class="navbar-brand text-light  fs-1 fw-bold px-5 " href="#">Furni. </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item px-5">
+                            <a class="nav-link active text-light" id="A2" href="index.html">Home</a>
+                        </li>
+                        <li class="px-3"> <a class="nav-link active text-light" id="A2" href="shop.html">Shop</a>
+                        </li>
+                        <li class="px-3"> <a class="nav-link active text-light" id="A2" href="About.html">About
+                                us</a></li>
+                        <li class="px-3"> <a class="nav-link active text-light" id="A2"
+                                href="Services.html">Services</a>
+                        </li>
+                        <li class="px-3"> <a class="nav-link active text-light" id="A2" href="Blog.html">Blog</a>
+                        </li>
+                        <li class="px-3"> <a class="nav-link active text-light" id="A2" href="contact us.html">Contact
+                                us</a></li>
+
+
+                    </ul>
+                    <ul class="custom-navbar-cta navbar-nav ms-5">
+                        <li class="nav-item px-4 "><a class="nav-link" id="A3" href="#"><img src="images/user.svg"
+                                    alt="User"></a>
+                        </li>
+                        <li class="nav-item px-4 pe-5"><a class="nav-link" id="A3" href="cart.html"><img
+                                    src="images/cart.svg" alt="Cart"></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <div class="row mt-5 pt-5">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4">
+                <div class="container px-5">
+                    <h1 class="text-light fw-bold px-5 ">carts</h1>
+                    <p class="px-5 text-light mt-4 text-light">Donec vitae odio quis nisl dapibus malesuada. Nullam ac
+                        aliquet
+                        velit. Aliquam vulputate velit imperdiet dolor tempor tristique.</p>
+                    <div class="pb-5">
+                        <a href="#" class="btn  me-2 bg-warning text-dark mx-5 px-4 mt-3 " id="a">Shop Now</a>
+                        <a href="#" class="btn btn-outline-secondary  text-light px-4 mt-3" id="a">Explore</a>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6 px-4">
+                <img src="Images/couch.png" class="img-fluid " alt="">
+            </div>
+
+        </div>
+
+    </header>
+    <section class="py-5">
+
+        <div class="untree_co-section before-footer-section pt-5">
+            <div class="container pt-5">
+                <div class="row mb-5 pt-5">
+                    <form class="col-md-12" method="post">
+                        <div class="site-blocks-table row">
+                            <table class="table col-12 col-sm-12 col-md-12 " style="margin: auto; width: 90%;font-size: 18px;">
+                                <thead>
+                                    <tr>
+                                        <th class="pb-5 fw-bold product-thumbnail px-5">Image</th>
+                                        <th class="pb-5 fw-bold product-name px-5">Product</th>
+                                        <th class="pb-5 fw-bold product-price px-5">Price</th>
+                                        <th class="pb-5 fw-bold product-quantity px-5">Quantity</th>
+                                        <th class="pb-5 fw-bold product-total px-5">Total</th>
+                                        <th class="pb-5 fw-bold product-remove px-5">Remove</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody class="col-12 col-sm-12 col-md-12 ">
+
+                                    <tr>
+                                        <td class="product-thumbnail">
+                                            <img src="images/product-1.png" alt="Product Image" class="img-fluid w-50">
+                                        </td>
+
+                                        <td class="product-name">
+                                            <h2 class="h5 text-black pt-5 px-4">Product 1</h2>
+                                        </td>
+                                        <td class="pt-5 px-5">$49.00</td>
+                                        <td>
+                                            <div class="input-group mb-3 d-flex align-items-center quantity-container pt-5"
+                                                style="max-width:120px;">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn btn-outline-black decrease"
+                                                        type="button">&minus;</button>
+                                                </div>
+                                                <input type="text" class="form-control text-center quantity-amount"
+                                                    value="1">
+
+                                                <div class="input-group-append">
+                                                    <button class="btn btn-outline-black increase"
+                                                        type="button">&plus;</button>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="pt-5 px-5">$49.00</td>
+                                        <td>
+                                            <a href="#" class="btn btn-black btn-sm pt-5 px-5">X</a>
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td class="product-thumbnail">
+                                            <img src="images/product-2.png" alt="Product Image" class="img-fluid w-50">
+                                        </td>
+
+                                        <td class="product-name">
+                                            <h2 class="h5 text-black pt-5 px-4">Product 2</h2>
+                                        </td>
+
+                                        <td class="pt-5 px-5">$49.00</td>
+
+                                        <td>
+                                            <div class="input-group mb-3 d-flex align-items-center quantity-container pt-5 "
+                                                style="max-width:120px;">
+                                                <div class="input-group-prepend">
+                                                    <button class="btn btn-outline-black decrease"
+                                                        type="button">&minus;</button>
+                                                </div>
+
+                                                <input type="text" class="form-control text-center quantity-amount"
+                                                    value="1">
+
+                                                <div class="input-group-append ">
+                                                    <button class="btn btn-outline-black increase"
+                                                        type="button">&plus;</button>
+                                                </div>
+                                            </div>
+                                        </td>
+
+
+
+                                        <td class="pt-5 px-5">$49.00</td>
+
+                                        <td>
+                                            <a href="#" class="btn btn-black btn-sm pt-5 px-5">X</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container px-5 py-5">
+            <div class="row pb-5">
+                <div class="col-md-6">
+                    <div class="row mb-5">
+                        <div class="col-md-6 mb-3 mb-md-0">
+                            <button id="bb" class="btn btn-dark btn-sm ms-4 px-4 py-1 fw-bold "> Update Cart</button>
+                        </div>
+                        <div class="col-md-6">
+                            <button id="bb" class="btn btn-dark py-2 px-4 fw-bold"> Continue Shopping </button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label class="text-black h4" for="coupon">Coupon</label>
+                            <p>Enter your coupon code if you have one.</p>
+                        </div>
+                        <div class="col-md-8 mb-3 mb-md-0">
+                            <input type="text" class="form-control py-3 pt-2" id="coupon" placeholder="Coupon Code">
+                        </div>
+                        <div class="col-md-4">
+                            <button id="bb" class="btn btn-dark py-4 fw-bold"> Apply Coupon </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-6 pl-5">
+                    <div class="row justify-content-end">
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-12 text-right border-bottom mb-5">
+                                    <h3 class="text-dark text-uppercase" style="font-size: 80xp;">Cart Totals</h3>
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-md-6">
+                                    <span class="text-black">Subtotal</span>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <strong class="text-black">$230.00</strong>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-md-6">
+                                    <span class="text-black">Total</span>
+                                </div>
+                                <div class="col-md-6 text-right">
+                                    <strong class="text-black">$230.00</strong>
+                                </div>
+                            </div>
+
+
+                            <form>
+                                <label>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <a href="Checkout.html" id="bb" class="btn btn-dark btn-lg py-3 fw-bold btn-block"
+                                                onclick="window.location='Checkout.html'">
+                                                Proceed To Checkout
+                                            </a>
+                                        </div>
+                                    </div>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section d-flex  container">
+        <div class="container relative">
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="subscription-form">
+                        <h3 class="d-flex align-items-center">
+                            <span class="me-1">
+                                <img src="images/envelope-outline.svg" alt="Image" class="img-fluid d-flex">
+                            </span>
+                            <span>Subscribe to Newsletter</span>
+                        </h3>
+
+                        <form action="#" class="row g-3 ">
+                            <div class="col-auto">
+                                <input type="text" class="form-control w-100" placeholder="Enter your name">
+                            </div>
+                            <div class="col-auto">
+                                <input type="email" class="form-control" placeholder="Enter your email">
+                            </div>
+                            <div class="col-auto">
+                                <button class="btn btn-success px-4 py-2">
+                                    <span class="fa fa-paper-plane"></span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="sofa-img ms-auto col-12 col-md-6 col-lg-6 col-xl-6 ">
+                    <img src="images/sofa.png" alt="Image" class="img-fluid " id="ee">
+                </div>
+            </div>
+
+            <div class="row g-5 mb-5 pt-5">
+                <div class="col-lg-4">
+                    <div class="mb-4 footer-logo-wrap">
+                        <h2 id="h2" class="footer-logo fs-1">Furni<span>.</span></h2>
+                    </div>
+                    <p class="mb-4">
+                        Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada.
+                        Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+                    </p>
+                    <ul class="list-unstyled custom-social d-flex">
+                        <li id="li"><a href="#"><span class="fa fa-brands fa-facebook-f"></span></a></li>
+                        <li id="li"><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
+                        <li id="li"><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
+                        <li id="li"><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row links-wrap">
+                        <div class="col-6 col-sm-6 col-md-3 pt-3">
+                            <ul class="list-unstyled pt-5">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 pt-3">
+                            <ul class="list-unstyled pt-5">
+                                <li><a href="#">Support</a></li>
+                                <li><a href="#">Knowledge base</a></li>
+                                <li><a href="#">Live chat</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-sm-6 col-md-3 pt-3">
+                            <ul class="list-unstyled pt-5">
+                                <li><a href="#">Jobs</a></li>
+                                <li><a href="#">Our team</a></li>
+                                <li><a href="#">Leadership</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-6 col-sm-6 col-md-3 pt-3">
+                            <ul class="list-unstyled pt-5">
+                                <li><a href="#">Nordic Chair</a></li>
+                                <li><a href="#">Kruzo Aero</a></li>
+                                <li><a href="#">Ergonomic Chair</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-top copyright">
+                <div class="row pt-4">
+                    <div class="col-lg-6">
+                        <p class="mb-2 text-center text-lg-start text-muted">
+                            Copyright &copy; 2026. All Rights Reserved. — Designed with love by Untree.co Distributed By
+                            ThemeWagon
+
+                            <a href="https://untree.co">Untree.co</a>
+                            Distributed By
+                            <a href="https://themewagon.com " class="text-muted">ThemeWagon</a>
+                        </p>
+                    </div>
+
+
+
+
+                    <div class="col-lg-6 text-center text-lg-end">
+                        <ul class="list-unstyled d-inline-flex ms-auto">
+                            <li class="me-4   text-muted "><a href="#">Terms &amp; Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
